@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 
-const Navigation = () => {
+const Header = () => {
   return (
     <>
       <Navbar
@@ -41,4 +41,4 @@ const Navigation = () => {
   );
 };
 
-export default Navigation;
+export default Header;

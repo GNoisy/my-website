@@ -2,12 +2,20 @@ import React from 'react';
 import './App.css';
 
 //components
-import Navigation from './componenets/Navbar'
+import Header from './components/Navbar'
+import LandingPage from "./components/LandingPage"
 
 function App() {
   return (
     <div className="App">
-      <Navigation /> 
+      <div className="App-Header">
+        <LandingPage />
+        <Header />
+      </div>
+      
+      {/* <div>
+        <Header /> 
+      </div> */}
     </div>
   );
 }

@@ -12,6 +12,10 @@ export default class Particle extends Component {
             color: {
               value: "#0f1d25",
             },
+            backgroundMode: {
+              enable: true,
+              zIndex: 0,
+            },
           },
           fpsLimit: 60,
           interactivity: {

@@ -6,21 +6,15 @@ import './style.css'
 
 export default class LandingPage extends Component {
     render() {
-      return ( 
-        <div>
-            <Container>
-                <div className="My-Intro">
-                    <p>
-                    Hello, I'm Giovanni Noisy
-                    </p>
-                </div>
-            </Container>
-            
-            <div>
-                <Particle />
-            </div>
-            
-        </div>
+      return (
+        <>
+          <Container fluid>
+            <Particle />
+            {/* <div className="My-Intro">
+              <p>Hello, I'm Giovanni Noisy</p>
+            </div> */}
+          </Container>
+        </>
       );
     }
 }

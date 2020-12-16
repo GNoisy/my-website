@@ -1,15 +1,16 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import Container from "react-bootstrap/esm/Container";
 
 const Header = () => {
   return (
     <>
       <Navbar
-        className="border-bottom"
         collapseOnSelect
         expand="lg"
-        bg="dark"
+        // bg="dark"
+        bg-transparent
         variant="dark"
       >
         <Navbar.Brand href="/">Giovanni Noisy</Navbar.Brand>

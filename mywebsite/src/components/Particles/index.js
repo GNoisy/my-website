@@ -10,11 +10,13 @@ export default class Particle extends Component {
         options={{
           background: {
             color: {
-              value: "#0f1d25",
+            //   value: "#0f1d68",
+            //   background: rgb(32,18,36);
+            //   background: linear-gradient(90deg, rgba(32,18,36,1) 0%, rgba(102,41,41,1) 48%, rgba(56,24,22,1) 99%);
             },
             backgroundMode: {
               enable: true,
-              zIndex: 0,
+              zIndex: -1,
             },
           },
           fpsLimit: 60,

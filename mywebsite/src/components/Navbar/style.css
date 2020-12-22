@@ -1,0 +1,16 @@
+.navigBar {
+    margin-top: 2rem;
+}
+
+.navItems {
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navBrand {
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}

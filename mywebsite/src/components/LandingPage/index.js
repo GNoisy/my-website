@@ -13,6 +13,7 @@ export default class LandingPage extends Component {
             {/* <div className="My-Intro">
               <p>Hello, I'm Giovanni Noisy</p>
             </div> */}
+            
           </Container>
         </>
       );
